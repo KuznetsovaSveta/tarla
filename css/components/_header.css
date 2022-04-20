@@ -1,0 +1,48 @@
+.wrapper {
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px 25px;
+	max-height: 88px;
+}
+.header__left {
+	display: flex;
+}
+.header__logo {
+	margin-right: 16px;
+}
+.header__items {
+	display: flex;
+	padding-top: 38px;
+}
+.header__item {
+}
+
+.header__item:not(:last-child) {
+	margin-right: 16px;
+}
+
+.header__item-link {
+	font-size: 16px;
+	line-height: 13px;
+	text-transform: uppercase;
+}
+.header__right {
+	display: flex;
+}
+.right-header {
+}
+.right-header__icon {
+	text-align: center;
+}
+
+.right-header__icon:not(:last-child){
+	margin-right: 10px;
+}
+.icon {
+}
+.icon__text {
+	line-height: 28px;
+
+}

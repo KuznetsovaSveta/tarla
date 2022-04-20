@@ -1,0 +1,35 @@
+.planet {
+	background: #F5EDE7;
+	margin-top: -5px;
+}
+.planet__wrapper {
+	padding: 16px;
+}
+.planet__cards {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 15px;
+}
+.planet__card {
+	grid-column: span 2;
+	max-width: 630px;
+	padding: 25px;
+	text-align: center;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.planet__img {
+	border-radius: 10px;
+}
+.planet__title {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 69px;
+	margin-bottom: 20px;
+}
+.planet__descr {
+	line-height: 28px;
+	max-width: 400px;
+}

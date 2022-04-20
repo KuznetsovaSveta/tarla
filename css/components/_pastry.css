@@ -1,0 +1,53 @@
+.pastry {
+	background: #FFC3A0;
+	padding: 24px 16px;
+	display: flex;
+	justify-content: space-between;
+}
+.pastry__text {
+}
+.pastry__title {
+	padding-top: 83px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 76px;
+	font-weight: 400;
+	line-height: 90px;
+	margin-bottom: 33px;
+	max-width: 364px;
+}
+.pastry__descr {
+	line-height: 28px;
+	margin-bottom: 21px;
+	max-width: 444px;
+}
+
+
+.pastry__media {
+	position: relative;
+}
+
+/*.pastry__media:before {*/
+/*	position: absolute;*/
+/*	content: "";*/
+/*	right: 17px;*/
+/*	bottom: 25px;*/
+/*	width: 54px;*/
+/*	height: 36px;*/
+/*	background: url("../../img/pastry/arrow-right.svg");*/
+/*	background-size: cover;*/
+/*	background-position: center;*/
+/*	background-repeat: no-repeat;*/
+/*}*/
+
+/*.pastry__media:after {*/
+/*	position: absolute;*/
+/*	content: "";*/
+/*	right: 76px;*/
+/*	bottom: 25px;*/
+/*	width: 54px;*/
+/*	height: 36px;*/
+/*	background: url("../../img/pastry/arrow-left.svg");*/
+/*	background-size: cover;*/
+/*	background-position: center;*/
+/*	background-repeat: no-repeat;*/
+/*}*/

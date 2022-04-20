@@ -1,0 +1,80 @@
+.footer {
+	padding: 64px 16px;
+	background: #F5EDE7;
+}
+.footer__columns {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__column {
+}
+.column-logo{
+} 
+.footer__logo {
+	margin-bottom: 230px;
+}
+.footer__copy {
+}
+.footer__list {
+}
+.footer__item {
+}
+.footer__title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 23px;
+}
+.footer__link {
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+.footer__tarlabakes {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 36px;
+}
+.footer__list-social {
+	display: flex;
+}
+
+.footer__item-social {
+}
+
+.footer__item-social:not(:last-child) {
+	margin-right: 8px;
+}
+
+.footer__link-social {
+	display: inline-block;
+/*	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;*/
+	height: 32px;
+	width: 32px;
+}
+
+.tw{
+	background: url("../../img/footer/tw.svg");
+}
+
+.fb{
+	background: url("../../img/footer/fb.svg");
+}
+
+.inst{
+	background: url("../../img/footer/inst.svg");
+}
+
+.tt{
+	background: url("../../img/footer/tt.svg");
+}
+
+.sp{
+	background: url("../../img/footer/sp.svg");
+	background-size: cover;
+}
+

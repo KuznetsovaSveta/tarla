@@ -1,0 +1,38 @@
+.join {
+	padding: 60px 0;
+	/*background: #F5EDE7;*/
+	text-align: center;
+}
+.join__title {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 72px;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+.join__subtitle {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 44px;
+	margin-bottom: 24px;
+}
+.join__link {
+	display: inline-block;
+	font-size: 17px;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, 0.25);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 10px;
+	max-width: 480px;
+	max-height: 58px;
+	padding: 19px 130px;
+	transition: 0.2s all linear;
+}
+
+.join__link:hover{
+	background-color: #F5EDE7;
+}

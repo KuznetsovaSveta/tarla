@@ -1,0 +1,32 @@
+.freshly {
+	background: #F5EDE7;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.freshly__wrapper {
+	padding: 72px 47px 72px 16px;
+}
+.freshly__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.freshly__img {
+	display: inline-block;
+	margin-right: 48px;
+}
+.freshly__text {
+}
+.freshly__descr {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 56px;
+	margin-bottom: 23px;
+}
+.freshly__link {
+}
+.tarla__button {
+}
+.button-blue {
+}
